@@ -1,7 +1,7 @@
 export default function getRefs() {
     return {
-      input: document.querySelector('#search-form'),
-      gallery: document.querySelector('.gallery'),
-      //countryList: document.querySelector('.country-list'),
+      searchForm: document.querySelector('#search-form'),
+      hitsContainer: document.querySelector('.gallery'),
+      loadMoreBtn: document.querySelector('.load-more'),
     };
   }
